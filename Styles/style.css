@@ -1,4 +1,6 @@
-
+body {
+    margin:0;
+}
 .info-grid {
     display: grid;
     grid-template-columns: 40px 1fr;
