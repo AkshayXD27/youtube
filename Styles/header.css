@@ -1,7 +1,26 @@
- .search {
-    display: block;
-}
 
 .header{
-    height: 40px;
+    height:50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.left-section{
+    width: 150px;
+    background-color: lightblue;
+}
+
+.middle-section {
+    flex: 1;
+    background-color: pink;
+    margin-left: 70px;
+    margin-right: 40px;
+    max-width: 500px;
+}
+
+.right-section {
+    width: 220px;
+    background-color: greenyellow;
 }
