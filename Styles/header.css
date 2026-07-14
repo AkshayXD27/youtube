@@ -87,16 +87,24 @@
 .right-section {
     width: 220px;
     background-color: greenyellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 .upload {
-    height: 22px;
+    height: 24px;
 }
 
 .apps {
-    height: 22px;
+    height: 24px;
 }
 
 .noti {
-    height: 22px;
+    height: 24px;
+}
+
+.channel-ico {
+    height: 32px;
 }
