@@ -5,4 +5,27 @@
     top: 55px;
     background-color: white;
     width: 72px;
+
+}
+
+.sidebar-link {
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.sidebar-link:hover {
+    background-color: lightgray;
+}
+
+.sidebar img {
+    height: 24px;
+    margin-bottom: 6px;
+}
+
+.sidebar-txt {
+    font-size: 10px;
 }

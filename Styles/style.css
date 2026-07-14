@@ -1,5 +1,6 @@
 body {
     margin:0;
+    padding-bottom: 40px;
 }
 .info-grid {
     display: grid;
@@ -48,15 +49,16 @@ body {
     row-gap: 35px;
 }
 
-.vid-time{
+.vid-time {
     background-color: black;
     color: white;
     position: absolute;
     bottom: 8px;
-    right: 4px;
-
-    font-size: 13px;
-
+    right: 5px;
+    padding: 2px 4px;
+    font-size: 12px;
+    border-radius: 2px;
+    font-weight: 500;
 }
 
 .thumbnail-row{
