@@ -47,3 +47,18 @@ body {
     column-gap: 20px;
     row-gap: 35px;
 }
+
+.vid-time{
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right: 4px;
+
+    font-size: 13px;
+
+}
+
+.thumbnail-row{
+    position: relative;
+}
